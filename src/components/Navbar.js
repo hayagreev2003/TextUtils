@@ -15,7 +15,7 @@ export default function Navbar(props) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              <Link className="nav-link" aria-current="page" to="/">Home</Link>
               {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
             </li>
             <li className="nav-item">
@@ -26,10 +26,6 @@ export default function Navbar(props) {
             <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={props.toggleMode}/>
             <label className="form-check-label" htmlFor="flexSwitchCheckDefault">{props.M} Dark Mode</label>
           </div>
-          {/* <form className="d-flex" role="search">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-            <button className="btn btn-primary" type="submit">Search</button>
-          </form> */}
         </div>
       </div>
     </nav>

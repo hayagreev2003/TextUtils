@@ -33,17 +33,12 @@ function App() {
       document.body.style.backgroundColor='#042743'
       showalert("Dark Mode Enabled","success")
       setM('Disable')
-      // document.title = 'TextUtils - DarkMode'
-      // setInterval(() => {
-      //   document.title = 'TextUtils is Amazing'
-      // }, 2000);
     }
     else{
       setmode('light')
       document.body.style.backgroundColor='white'
       showalert("Dark Mode Disabled","success")
       setM('Enable')
-      // document.title = 'TextUtils - LightMode'
     }
   }
   return (
